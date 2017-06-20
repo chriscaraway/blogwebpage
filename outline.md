@@ -8,17 +8,17 @@ The aim of this project is to create a fully functional website portfolio that c
 - name: "About"
   href: "/"
   file: "/index.html"
-	About page will contain bio information
+	About page will contain bio information.
 
 - name: "Projects"
   href: "/projects"
   file: "/projects.html"
-	Project page will contain information about projects that I've worked on and contain links
+	Project page will contain information about projects that I've worked on and contain links to work samples.
 
 - name: "Blog"
   href: "/blog"
   file: "/blog.html"
-	Blog page will contain list of blogs, and allow me to write and publish posts
+	Blog page will contain list of blogs, and allow me to write and publish posts.
 
 ## Prerequisites
 
