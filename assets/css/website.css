@@ -1,20 +1,23 @@
 h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 80px
+  font-size: 80px;
+  color: #000000;
 
 }
 
 h2 {
 	font-family: "Raleway", sans-serif;
 	font-size: 30px;
+  color: #000000;
 }
 
 p {
 	font-family: "Raleway", sans-serif;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: Black;
+	color: white;
 	font-size: 30px
+
 }
 
 body {
@@ -22,11 +25,13 @@ body {
 	text-align: center;
 	color: Black;
 	padding-left: 55px;
+  background: #DCDCDC;
 }
 
 blockquote {
 	font-family: "Raleway", sans-serif;
-	font-size: 20px
+	font-size: 25px;
+  color: #000000;
 }
 
 ul, li {
@@ -34,20 +39,24 @@ ul, li {
 	font-size: 20px;
 	text-align: center;
 	list-style: none;
+  color: #000000;
 }
 blockquote, q {
 	quotes: none;
+  color: #000000;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
+  color: #000000;
 }
 
 footer {
 	font-family: "Raleway", sans-serif;
-	font-size: 10px;
+	font-size: 8px;
+  color: #000000;
 }
 
 
