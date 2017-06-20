@@ -8,6 +8,18 @@ The aim of this project is to create a fully functional website portfolio that c
 
 Node, Express and PostgreSQL to write from a postgres database. Final product must be hosted on Heroku.
 
+## Stylistic Inspiration
+
+Strangers I stalked on the internet:
+
+http://mattfarley.ca/
+
+http://www.dejan-markovic.com/
+
+https://caferati.me/
+
+
+
 ## Data Models
 
 | Column    | Type                 |
@@ -23,13 +35,4 @@ Node, Express and PostgreSQL to write from a postgres database. Final product mu
 "title": the subject of the blog posts
 "body": descriptive rants about posts
 "timestamp": shows the time and date of blog post
-}
-
-## Stylistic Inspiration
-Strangers I stalked on the internet:
-
-http://mattfarley.ca/
-
-http://www.dejan-markovic.com/
-
-https://caferati.me/
+};

@@ -3,16 +3,14 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const indexRoutes = require("./routes/index.js");
-const foodBlog = require("./routes/blog.js");
+const Blog = require("./routes/blog.js");
 const sql = require("./util/sql.js");
-
 
 app.set("view engine", "ejs");
 app.use(express.static("assets"));
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 app.use("/", indexRoutes);
-
 
 app.get("/", function(req, res) {
 renderBlog(res);
@@ -44,12 +42,6 @@ res.render("form", {
 	title: req.body.title,
 	body: req.body.body,
 });
-});
-
-
-
-app.get ("/error", function(req, res) {
-	res.render("error");
 });
 
 app.listen(3000, function() {
